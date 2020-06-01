@@ -1,0 +1,58 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "uniq" : 111,
+            "title": "Boys T-shirt",
+            "description": "Green color T-Shirt for all kinds of ages",
+            "price": 300,
+            "availableSize": ["S","M", "L", "XL"],
+            "isFreeShip": false  
+        },
+        {
+            "id": 2,
+            "uniq" : 222,
+            "title": "Jeans",
+            "description": "Mens jeans, available colors - blue, black, white",
+            "price": 1500,
+            "availableSize": ["S","XS", "XL"],
+            "isFreeShip": true  
+        },
+        {
+            "id": 3,
+            "uniq" : 333,
+            "title": "Rugby Trousers",
+            "description": "Multiple colors available. Only for girls",
+            "price": 700,
+            "availableSize": ["L", "XL", "XXL"],
+            "isFreeShip": false  
+        },
+        {
+            "id": 4,
+            "uniq" : 444,
+            "title": "Ladies Kurta",
+            "description": "Available only in blue color",
+            "price": 900,
+            "availableSize": ["S","XS", "L"],
+            "isFreeShip": true  
+        },
+        {
+            "id": 5,
+            "uniq" : 555,
+            "title": "Shirt",
+            "description": "Louis Phillipe Men's Formal Shirt",
+            "price": 2500,
+            "availableSize": ["XS", "L", "XXL"],
+            "isFreeShip": true  
+        },
+        {
+            "id": 6,
+            "uniq" : 666,
+            "title": "Jumpsuit",
+            "description": "Denim Jumpsuit for girls",
+            "price": 1900,
+            "availableSize": ["XS","M", "L"],
+            "isFreeShip": false  
+        }
+    ]
+}
