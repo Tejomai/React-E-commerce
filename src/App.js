@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
-import './App.css';
+import "./css/App.css";
 import axios from "axios";
 import Products from "./components/Products.js";
-import Filter from "./components/Filter.js";
+import FilteringProducts from "./components/FilteringProducts.js";
 import Basket from './components/Basket';
 
 class App extends Component {
@@ -23,9 +23,6 @@ class App extends Component {
     .catch(error => {
       console.log(error);
     })
-    //if(localStorage.getItem("cartItems")){
-      //this.setState({cartItems: JSON.parse(localStorage.getItem("cartItem"))});
-    //}
     /*fetch("http://localhost:3000/products", {
       headers : { 
         'Content-Type': 'application/json',
@@ -92,7 +89,7 @@ class App extends Component {
       <hr/>
       <div className="row">
         <div className="col-md-8">
-          <Filter size={this.state.size} sort={this.state.sort} handleChangeSize={this.handleChangeSize}
+          <FilteringProducts size={this.state.size} sort={this.state.sort} handleChangeSize={this.handleChangeSize}
           handleChangeSort={this.handleChangeSort} count={this.state.filterProducts.length} />
           <hr/>
           <Products products={this.state.filterProducts} handleCart={this.handleCart} />

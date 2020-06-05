@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-class Filter extends Component {
+class FilteringProducts extends Component {
     render() {
         return (
             <div className="row">
@@ -37,4 +37,4 @@ class Filter extends Component {
     }
 }
 
-export default Filter
+export default FilteringProducts

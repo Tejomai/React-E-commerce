@@ -12,7 +12,7 @@ class Basket extends Component {
                             {cartItems.map(item=>
                                 <li>
                                     <b> {item.title}  </b> x {item.count/2} = {item.price * item.count/2}
-                                    <button className="btn btn-danger ml-3" onClick={(e)=> this.props.handleRemoveFromCart(e, item)}>
+                                    <button className="btn btn-danger ml-3" id="remove-item" onClick={(e)=> this.props.handleRemoveFromCart(e, item)}>
                                         X
                                     </button>
                                 </li>)}
@@ -27,4 +27,5 @@ class Basket extends Component {
     }
 }
 
-export default Basket
+export default Basket;
+
